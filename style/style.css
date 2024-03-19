@@ -1,0 +1,197 @@
+header
+{
+
+    background-color: white;
+    position: relative;
+    display: flex;
+    color: white;
+    border: 100px;
+    border-color: white;
+}
+body
+{
+    background-color:white;
+    /* The image used */
+    background-image: url("../images/serverroom.png");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0em;
+}
+h1
+{
+    background: -webkit-linear-gradient(#000f46, #0079f0);
+    -webkit-background-clip: text;
+    background-clip: text; /*Only here to fix the error for the -Webkit- --> The Error Message = also define the standard property 'background-clip' for compatibility*/
+    -webkit-text-fill-color: transparent;
+    font-family: Acens, Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    flex: 1;
+    
+}
+@font-face
+{
+    font-family: Acens;
+    src: url(../fonts/acens/LOGOTYPE-Light.ttf);
+}
+section
+{
+    margin-top: 10% ;
+    margin-bottom: 10%;
+
+
+}
+section p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 200px;
+}
+section h2
+{
+    background-color: lightgray;
+    border: 1vw solid lightgrey;
+    border-radius: 0.5vw;
+    text-align: center;
+    color: #000f46; 
+    font-family: Acens, Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-left: 6em;
+    margin-right: 6em;
+    max-width: 500%;
+    max-height: 200%;
+    min-width: 100px;
+    min-height: 50px;
+}
+.headerImage
+{
+    height: 130px;
+    width: 85px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+nav ul
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 1.2em;
+    padding-right: 10px;
+    margin-top: 50px;
+    flex: 1;
+    
+}
+nav ul li
+{
+    display: inline;
+    padding-right: 10px;
+}
+nav ul li a
+{
+    color:#000f46;
+    text-decoration: none;
+}
+h3
+{
+    font-family: Acens, Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: #000f46;
+    font-weight: bold;
+    
+}
+.firstsub
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 40vw;
+    margin-bottom: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 2vw;
+    padding-top: 2px;
+    color: rgb(0, 2, 141);
+    
+}
+.secondsub
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 40vw;
+    margin-bottom: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 2vw;
+    padding-top: 2px;
+    color: rgb(0, 2, 141);
+}
+.thirdsub
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 40vw;
+    margin-bottom: 30vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 2vw;
+    padding-top: 2px;
+    color: rgb(0, 2, 141);
+}
+.firstsub p
+{
+    color: #000f46;
+}
+.secondsub p
+{
+    color: #000f46;
+}
+.thirdsub p
+{
+    color: #000f46;
+}
+#disclaimer
+{
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+
+
+}
+footer
+{
+    
+    width:100%;
+    /*height: 50px;
+    /*how to fill bottom section of footer*/
+    bottom:0px;
+    padding: 0;
+    margin: 0;
+    color: #000f46;
+    text-align: center;
+    border-top: 2px solid black;
+    background: rgb(255, 255, 255);
+    position: fixed; 
+}
+/* Comments
+
+    - #000f46 - Dark Blue used in Logo
+    - #0079f0 - Light Blue Used in Logo 
+
+*/
